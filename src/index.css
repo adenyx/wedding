@@ -1,13 +1,45 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --title-font-family: 'AmadorGothicC', sans-serif;
+  --text-font-family: 'PrataRegular', sans-serif;
+  --title-font-weight: 800;
+  --text-font-weight: 500;
+  --title-font-size: 54px;
+  --text-font-size: 20px;
+
+  --section-padding: 50px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: var(--title-font-size);
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
+  margin: 0;
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+  font-weight: var(--text-font-weight);
+}
+
+@font-face {
+  font-family: 'AmadorGothicC';
+  src: local('AmadorGothicC-Regular'), url('./fonts/AmadorGothicC.ttf');
+}
+
+@font-face {
+  font-family: 'PrataRegular';
+  src: local('PrataRegular-Regular'), url('./fonts/Prata-Regular.ttf');
 }
