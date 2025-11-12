@@ -15,7 +15,7 @@ export const Header = () => {
 
       <div className="header-separator-small" />
 
-      <p className="header-conclusion-title">АЛИНА & ДЕНИС ЖЕНЯТСЯ!</p>
+      <p className="header-conclusion-title">АЛИНА & ДЕНИС РЕШИЛИ ПОЖЕНИТЬСЯ!</p>
 
       <div className="header-separator" />
 
