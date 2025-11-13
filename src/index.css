@@ -13,7 +13,7 @@ body {
   --title-font-size: 54px;
   --text-font-size: 20px;
 
-  --section-padding: 50px 0;
+  --section-padding: 2.5rem 20rem;
 }
 
 h1 {
@@ -21,6 +21,17 @@ h1 {
   font-size: var(--title-font-size);
   font-family: var(--title-font-family);
   font-weight: var(--title-font-weight);
+}
+
+h2 {
+  margin: 0;
+  font-size: var(--title-font-size);
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+}
+
+section {
+  padding: var(--section-padding);
 }
 
 code {
@@ -42,4 +53,13 @@ p {
 @font-face {
   font-family: 'PrataRegular';
   src: local('PrataRegular-Regular'), url('./fonts/Prata-Regular.ttf');
+}
+
+@media (max-width: 768px) {
+  body {
+    --title-font-size: 32px;
+    --text-font-size: 12px;
+
+    --section-padding: 1rem 2rem;
+  }
 }

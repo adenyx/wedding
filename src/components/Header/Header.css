@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7.5rem 20rem;
+  padding-top: 5rem;
 }
 
 .header-title {
+  font-size: 68px;
 }
 
 .header-separator {
@@ -38,7 +39,47 @@
 }
 
 .header-img {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 10px;
+  }
+
+  .header-container {
+    padding-top: 2.5rem;
+  }
+
+  .header-title {
+    font-size: 44px;
+  }
+
+  .header-separator {
+    height: 2px;
+  }
+
+  .header-separator-small {
+    height: 1px;
+  }
+
+  .header-description {
+    padding: 0.25rem 0;
+  }
+
+  .header-conclusion-title {
+    font-size: 20px;
+    padding: 0.75rem 0;
+    text-align: center;
+  }
+
+  .heading-3 {
+    padding: 0.25rem 0;
+  }
+
+  .header-img {
+    padding: 1rem 0;
+  }
 }

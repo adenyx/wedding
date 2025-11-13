@@ -1,7 +1,6 @@
 .container {
   margin: 0;
   padding: 0;
-  background-image: url('./assets/background.jpg');
-  background-repeat: repeat;
+  background: url('https://wedwed.ru/sitemaker/templates/template86/img/sections-decor/q-fon.webp');
   width: 100%;
 }
