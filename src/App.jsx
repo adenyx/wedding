@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from './components/Header/Header'
 import { Calendar } from './components/Calendar/Calendar'
 import { Location } from './components/Location/Location'
+import { Timing } from './components/Timing/Timing'
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Calendar />
       <Location />
-      <div style={{ height: 100 }}></div>
+      <Timing />
+      <div style={{ height: 1000 }}></div>
     </div>
   )
 }

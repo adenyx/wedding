@@ -11,7 +11,11 @@ export const Calendar = () => {
         </p>
       </div>
       <div className="calendar-wrapper">
-        <img src="src/assets/calendar-bg.png" alt="calendar image" className="calendar-img" />
+        <img
+          src="https://psv4.userapi.com/s/v1/d2/gCdX0jKBVdXKMWfgzFPDygageYeODWuVX-Rnzxt9MAvSBeLT7LpBfP4L9RUMMTSHYSKVxQs8RQR7PEyvwh_LGaDe1SVFMJu6Hsf9mNLVCqnxM-w0Mlwo1Qy1icY_B7qX-NltCdtwBOJr/calendar-bg.png"
+          alt="calendar"
+          className="calendar-img"
+        />
         <p className="calendar-date-time">
           10 ЯНВАРЯ
           <br />

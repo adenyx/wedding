@@ -1,0 +1,89 @@
+.timing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00000018;
+  padding: 5rem 20rem;
+}
+
+.timing-title {
+  margin-bottom: 30px;
+}
+
+.timing-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.timing-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.timing-item-time {
+  font-size: 32px;
+  font-weight: var(--title-font-weight);
+  margin-bottom: 20px;
+}
+
+.timing-item-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  padding: 20px 0;
+}
+
+.timing-item-description-icon {
+  height: 50px;
+}
+
+.timing-item-description-text {
+  height: 54px;
+  align-content: center;
+}
+
+@media (max-width: 768px) {
+  .timing-container {
+    padding: 2rem 2rem;
+  }
+
+  .timing-title {
+    margin-bottom: 20px;
+  }
+
+  .timing-wrapper {
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .timing-item {
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+
+  .timing-item-time {
+    width: 72px;
+    margin-bottom: 0;
+    font-size: 20px;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    align-content: center;
+  }
+
+  .timing-item-description {
+    flex: 1;
+    border: none;
+    padding: 16px 0;
+  }
+
+  .timing-item-description-text {
+    height: auto;
+    font-size: 18px;
+  }
+}

@@ -23,7 +23,11 @@ export const Header = () => {
 
       <div className="header-separator-small" />
 
-      <img src="src/assets/header.jpg" alt="header image" className="header-img" />
+      <img
+        src="https://psv4.userapi.com/s/v1/d2/v9TBj8204k51HFof3DwKFUXlXkoNtHwIq8MOuR4AwBoQkoX2sY9HbTRB-ZZpu1j3HvtRxmfN4TtM5lEGr0iJJ4-oC_XZVeX0i-6srz7FMjrbHNOAqmn02W9MeDiL68TD_56fNRoPkQ1P/IMG_3768.jpg"
+        alt="header"
+        className="header-img"
+      />
     </section>
   )
 }

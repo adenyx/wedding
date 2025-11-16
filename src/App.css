@@ -1,6 +1,7 @@
 .container {
   margin: 0;
   padding: 0;
-  background: url('https://wedwed.ru/sitemaker/templates/template86/img/sections-decor/q-fon.webp');
+  background-image: url('https://wedwed.ru/sitemaker/templates/template86/img/fon.webp');
+  background-size: 100% auto;
   width: 100%;
 }
