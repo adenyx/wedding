@@ -1,0 +1,34 @@
+.dresscode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dresscode-title {
+  margin-bottom: 30px;
+}
+
+.dresscode-separator-small {
+  height: 1px;
+  background: #000;
+  width: 100%;
+}
+
+.dresscode-text {
+  padding: 16px 0;
+}
+
+@media (max-width: 768px) {
+  .dresscode-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .dresscode-title {
+    font-size: 43px;
+  }
+
+  .dresscode-separator-small {
+    height: 1px;
+  }
+}

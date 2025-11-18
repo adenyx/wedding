@@ -24,7 +24,7 @@ export const Header = () => {
       <div className="header-separator-small" />
 
       <img
-        src="https://psv4.userapi.com/s/v1/d2/v9TBj8204k51HFof3DwKFUXlXkoNtHwIq8MOuR4AwBoQkoX2sY9HbTRB-ZZpu1j3HvtRxmfN4TtM5lEGr0iJJ4-oC_XZVeX0i-6srz7FMjrbHNOAqmn02W9MeDiL68TD_56fNRoPkQ1P/IMG_3768.jpg"
+        src="https://sun9-33.userapi.com/s/v1/ig2/9RJ80NUMW4l9Q-hNVACEuLsg-lBKH0hIGRb0Z3g-fIZncezpWRn1yYlhVa8Gj8uH4KvHiwfJJersamT5rlOkR8Lu.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x426,720x480,1080x720,1280x853,1440x960,2560x1706&from=bu&u=rvgfbALV_gSajZbCDneQg6_jH1SLnYrgEOAFn-cVhQ8&cs=2560x0"
         alt="header"
         className="header-img"
       />

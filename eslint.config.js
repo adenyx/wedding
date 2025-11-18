@@ -4,7 +4,6 @@ import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-import importPlugin from 'eslint-plugin-import'
 import jsxA11y from 'eslint-plugin-jsx-a11y'
 import prettier from 'eslint-plugin-prettier/recommended'
 
@@ -21,8 +20,6 @@ export default tseslint.config(
       ...tseslint.configs.recommended,
       // react
       react.configs.flat.recommended,
-      // import
-      importPlugin.flatConfigs.recommended,
       // a11y (accessibility
       jsxA11y.flatConfigs.recommended,
       // prettier
@@ -41,12 +38,6 @@ export default tseslint.config(
       // for eslint-plugin-react to auto detect react version
       react: {
         version: 'detect'
-      },
-      // for eslint-plugin-import to use import alias
-      'import/resolver': {
-        typescript: {
-          project: './tsconfig.json'
-        }
       }
     },
     rules: {

@@ -3,6 +3,10 @@ import { Header } from './components/Header/Header'
 import { Calendar } from './components/Calendar/Calendar'
 import { Location } from './components/Location/Location'
 import { Timing } from './components/Timing/Timing'
+import { CountdownTimer } from './components/CountdownTimer/CountdownTimer'
+import { WishesSlider } from './components/WishesSlider/WishesSlider'
+import { DressCode } from './components/DressCode/DressCode'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
@@ -11,7 +15,10 @@ function App() {
       <Calendar />
       <Location />
       <Timing />
-      <div style={{ height: 1000 }}></div>
+      <DressCode />
+      <CountdownTimer />
+      <WishesSlider />
+      <Footer />
     </div>
   )
 }
