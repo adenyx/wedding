@@ -58,7 +58,7 @@ export const Timing = () => {
             </div>
             <p className="timing-item-description-text">
               Банкет в<br />
-              The Refactory
+              The Refectory
             </p>
           </div>
         </div>
