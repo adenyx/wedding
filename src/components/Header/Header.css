@@ -35,13 +35,19 @@
 }
 
 .header-img {
-  padding: 1.5rem 0;
+  margin: 1.5rem 0;
   width: 100%;
+  object-fit: contain;
+}
+
+.image-container {
+  width: '100%';
   height: auto;
 }
 
 @media (max-width: 768px) {
   .header-title {
+    text-align: center;
     font-size: 43px;
   }
 
@@ -76,6 +82,6 @@
   }
 
   .header-img {
-    padding: 1rem 0;
+    margin: 1rem 0;
   }
 }

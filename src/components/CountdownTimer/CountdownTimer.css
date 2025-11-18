@@ -1,8 +1,5 @@
 .img-container {
-  background-image: url('https://wedwed.ru/sitemaker/templates/template86/img/timer.webp');
-  background-size: 100vw auto;
-  background-position: center;
-
+  background: url('https://wedwed.ru/sitemaker/templates/template86/img/timer.webp') center/cover;
   color: white;
 }
 

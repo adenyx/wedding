@@ -17,11 +17,13 @@ export const Footer = () => {
 
       <div className="footer-separator" />
 
-      <img
-        src="https://downloader.disk.yandex.by/preview/ab315fc0d694abe11be76f923bfa617c3bf39984f1a0cc33fac576e260ff4126/691c5b3e/lA_DauUnJjmNKiU4Fu9TFHTuXXozXt2-d9Xn58S_HPKHijFE841O6dBUixtY-2y6eOfC5E-JfnM2kmQSmU1vzg%3D%3D?uid=0&filename=DSC01757.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&size=3456x1836"
-        alt="footer"
-        className="footer-img"
-      />
+      <div className="image-container">
+        <img
+          src="https://sun9-46.userapi.com/s/v1/ig2/vyG6cC20pOjAtzXmZCMZLZy4tE3tzA0NUuNPypGA7meQFEg48pkWgFK3Eq-32OQCY3ab9_GQFkTyZtXuzV5wDRuS.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1179x786&from=bu&cs=1179x0"
+          alt="footer"
+          className="footer-img"
+        />
+      </div>
     </section>
   )
 }

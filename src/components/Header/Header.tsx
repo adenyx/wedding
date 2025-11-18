@@ -23,11 +23,13 @@ export const Header = () => {
 
       <div className="header-separator-small" />
 
-      <img
-        src="https://sun9-33.userapi.com/s/v1/ig2/9RJ80NUMW4l9Q-hNVACEuLsg-lBKH0hIGRb0Z3g-fIZncezpWRn1yYlhVa8Gj8uH4KvHiwfJJersamT5rlOkR8Lu.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x426,720x480,1080x720,1280x853,1440x960,2560x1706&from=bu&u=rvgfbALV_gSajZbCDneQg6_jH1SLnYrgEOAFn-cVhQ8&cs=2560x0"
-        alt="header"
-        className="header-img"
-      />
+      <div className="image-container">
+        <img
+          src="https://sun9-33.userapi.com/s/v1/ig2/9RJ80NUMW4l9Q-hNVACEuLsg-lBKH0hIGRb0Z3g-fIZncezpWRn1yYlhVa8Gj8uH4KvHiwfJJersamT5rlOkR8Lu.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x426,720x480,1080x720,1280x853,1440x960,2560x1706&from=bu&u=rvgfbALV_gSajZbCDneQg6_jH1SLnYrgEOAFn-cVhQ8&cs=2560x0"
+          alt="header"
+          className="header-img"
+        />
+      </div>
     </section>
   )
 }
