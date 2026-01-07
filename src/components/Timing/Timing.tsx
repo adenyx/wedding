@@ -42,7 +42,7 @@ export const Timing = () => {
           </div>
         </div>
         <div className="timing-item">
-          <p className="timing-item-time">16:00</p>
+          <p className="timing-item-time">15:30</p>
           <div className="timing-item-description">
             <div className="timing-item-description-icon">
               <svg

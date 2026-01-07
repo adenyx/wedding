@@ -16,7 +16,7 @@ export const CountdownTimer: React.FC = () => {
     seconds: 0
   })
 
-  const targetDate = new Date('2026-01-10T14:15:00').getTime()
+  const targetDate = new Date('2026-01-10T14:30:00').getTime()
 
   useEffect(() => {
     const calculateTimeLeft = (): TimeLeft => {
