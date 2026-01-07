@@ -6,7 +6,7 @@ export const Timing = () => {
       <h2 className="timing-title">Тайминг</h2>
       <div className="timing-wrapper">
         <div className="timing-item">
-          <p className="timing-item-time">14:15</p>
+          <p className="timing-item-time">14:30</p>
           <div className="timing-item-description">
             <div className="timing-item-description-icon">
               <svg
